@@ -1,0 +1,1081 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+
+    
+    overflow-x: hidden;
+    
+    
+
+
+}
+
+/* ======================================================.background_image=================================================== */
+.background_image {
+    background-color: orange;
+    width: 900px;
+    height: 600px;
+    border-radius: 350px;
+    top: -100px;
+    position: absolute;
+    right: -100px;
+    rotate: -45deg;
+    overflow: hidden;
+    z-index: -1;
+    transform: translatex(250px);
+  
+}
+.main_img{
+    transform: translatex(-30px);
+    transition: transform 1s ease-in;
+
+}
+
+.page_one_image img {
+    height: 600px;
+    rotate: 45deg;
+    margin-top: 60px;
+    margin-left: -160px;
+}
+
+
+/* ======================================================.nav bar=================================================== */
+.sticky_navbar {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 100;
+}
+.navbar ul li::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    transition: all 0.5s;
+    
+
+}
+.navbar ul li:hover::before{
+    width: 100%;
+    
+}
+
+.navbar {
+    justify-content: space-between;
+    display: flex;
+    z-index: 100;
+
+    height: 80px;
+    align-items: center;
+}
+
+.navbar img {
+    width: 100px;
+    margin-left: 200px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar button {
+    margin-right: 300px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px 10px 0px 20px;
+    cursor: pointer;
+}
+
+/* ======================================================page one =================================================== */
+
+
+
+.home_description {
+    height: 700px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+
+
+
+}
+
+
+.download_signup_button {
+    margin-top: 30px;
+}
+
+.download_signup_button button {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px 10px 0px 10px;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.home_description h1 {
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.home_description p {
+    letter-spacing: 1px;
+    font-size: 20px;
+    line-height: 20px;
+    color: grey;
+    margin-top: 15px;
+}
+
+#yellow_btn {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px 10px 10px 0;
+
+
+}
+
+.navbar_background {
+    background-color: white;
+}
+
+
+/* ======================================================safe guideline =================================================== */
+
+.safety img {
+    width: 100%;
+    cursor: pointer;
+
+}
+
+/* ======================================================page two=================================================== */
+
+.page_two {
+    display: flex;
+
+    position: relative;
+}
+
+.page_two_background {
+    width: 800px;
+    height: 600px;
+    background-color: lightyellow;
+    border-radius: 200px;
+    rotate: -30deg;
+    margin-top: 150px;
+    margin-left: -180px;
+    z-index: -1;
+}
+
+.inner_images {
+    margin-left: 200px;
+    rotate: 30deg;
+    margin-top: -98px;
+
+}
+
+.first_inner_images {
+    display: grid;
+}
+
+.side_msg_img {
+    width: 150px;
+    height: 50px;
+    box-shadow: 0px 0px 1px black;
+    background-color: white;
+    margin-top: 300px;
+    margin-left: 20px;
+    border-radius: 25px 25px 25px 0px;
+}
+
+.first_flex_image {
+    display: flex;
+}
+
+#first_inner_image {
+    border-radius: 100px 100px 0px 100px;
+}
+
+.side_second_msg_img {
+    width: 150px;
+    height: 50px;
+    box-shadow: 0px 0px 1px black;
+    background-color: yellow;
+    border-radius: 0px 25px 25px 25px;
+    rotate: 90deg;
+    margin-top: 250px;
+    margin-right: -30px;
+}
+
+.second_flex_image {
+    display: flex;
+    margin-left: 76px;
+    margin-top: -145px;
+}
+
+.second_inner_images img {
+    border-radius: 0px 120px 163px 171px;
+}
+
+.page_description {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 670px;
+    top: 100px;
+}
+
+/* ======================================================page two desctipyioin=================================================== */
+.page_description h1 {
+    font-weight: 100;
+}
+
+.page_description p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+.page_description button {
+    width: 200px;
+    background-color: orange;
+    font-size: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 25px 25px 25px 0px;
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+
+
+}
+
+/* ======================================================impact div=================================================== */
+.rotate{
+    rotate: 10deg;
+}
+
+.impact_div {
+    width: 1100px;
+    height: 600px;
+    background-color: lightyellow;
+    transition: rotate 1s ease-in;
+    margin: auto;
+    margin-top: 200px;
+
+    border-radius: 300px;
+    border: 1px solid lightyellow;
+
+}
+
+.impact_description {
+    width: fit-content;
+
+    margin: auto;
+
+    margin-top: 100px;
+
+}
+
+.impact_description h1 {
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.impact_description p {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 15px;
+    color: grey;
+}
+
+.impact_image_1 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 100px;
+    /* border: 1px  solid black; */
+    align-items: center;
+}
+
+.margin_image {
+    width: 100px;
+    margin: auto;
+    align-items: center;
+    padding-top: 39px;
+    margin-right: 40px;
+}
+
+.impact_images {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+.impact_image_1 {
+    margin-left: 20px;
+}
+
+
+/* =============================                 page 3         =================================================== */
+.page_three {
+    height: 1000px;
+    position: relative;
+}
+
+.page_three_des {
+    width: 550px;
+    margin: auto;
+    margin-top: 200px;
+
+}
+
+.page_three_des h1 {
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 10px;
+    margin-left: 100px;
+
+}
+
+.page_three_des h1::before {
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: orange;
+    position: absolute;
+    bottom: 0%;
+
+    margin-left: 100px;
+
+}
+
+.capt_cust_btn {
+    margin-top: 30px;
+    margin-left: 350px;
+
+
+
+
+}
+
+.capt_cust_btn button {
+
+    font-size: 20px;
+    width: 250px;
+    padding: 10px;
+
+
+
+
+    cursor: pointer;
+
+
+}
+
+#btn_one_one {
+    background-color: orange;
+    border-radius: 25px 0px 0px;
+    border: 1px solid black;
+}
+
+#btn_two_two {
+    border-radius: 0px 0px 25px 0px;
+
+}
+
+.three_page_image_one img {
+    width: 170px;
+}
+
+.three_page_image {
+    display: flex;
+    margin-top: 100px;
+
+    width: 100%;
+
+}
+
+.three_page_image_one {
+    padding-left: 50px;
+
+    width: 100%;
+    text-align: center;
+}
+
+.three_page_image_one h2 {
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.three_page_image_one p {
+    margin-top: 15px;
+    color: rgb(83, 82, 82);
+    line-height: 20px;
+
+
+
+}
+
+
+
+.captain_image {
+    position: absolute;
+    top: 15%;
+    display: none;
+
+
+}
+
+
+/* =============================                 page 4         =================================================== */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-right: 100px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.page_four_background {
+    width: 1200px;
+    height: 600px;
+    background-color: rgb(221, 218, 218);
+
+    border-radius: 200px;
+    position: relative;
+    margin-left: -200px;
+
+
+
+}
+
+#gp {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    z-index: -1;
+}
+
+#yp {
+    position: absolute;
+    left: 20%;
+    top: -100px;
+
+
+}
+
+.page_four_btn_des {
+    float: right;
+    margin: 100px 100px;
+    text-align: center;
+}
+
+.page_four_btn_des h2 {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.page_four_btn_des h2::before {
+    content: "";
+    background-color: orange;
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    bottom: 0%;
+    left: 150px;
+
+
+}
+
+.page_four_btn {
+    margin-top: 30px;
+}
+
+.page_four_btn button {
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid grey;
+    cursor: pointer;
+
+
+}
+
+#page_btn_one_id {
+
+    background-color: orange;
+    border-radius: 20px 0px 0px;
+}
+
+#page_btn_two_id {
+    border-radius: 0px 0px 20px;
+}
+
+.page_four_cus {
+
+
+    margin-top: 225px;
+
+    width: 646px;
+    position: absolute;
+
+    margin-left: 600px;
+
+
+
+}
+
+.page_four_cus_div {
+    width: 400px;
+    display: flex;
+    background-color: white;
+    border-radius: 20px 20px 5px;
+    margin: auto;
+    box-shadow: 0 0 10px 0 grey;
+    padding-right: 10px;
+
+}
+
+.page_four_cus_div img {
+    padding: 20px;
+    border-radius: 40px 40px 23px;
+    border: 1px solid white;
+    position: relative;
+    height: 107px;
+    width: 113px;
+
+
+}
+
+.page_four_cus_div p {
+    justify-content: baseline;
+    line-height: 20px;
+}
+
+.page_four_cus_des h5 {
+    justify-content: baseline;
+    margin-top: 20px;
+    margin-bottom: 7px;
+    font-size: 18px;
+
+}
+
+.page_four_cus_des {
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.swiper {
+    margin-top: 100px;
+}
+
+#prev_btn {
+    color: black;
+    background-color: rgb(252, 245, 245);
+    box-shadow: 0 0 10px 0 grey;
+
+    padding: 30px;
+    border-radius: 50px;
+
+
+
+}
+
+#next_btn {
+    color: black;
+    background-color: rgb(252, 245, 245);
+    box-shadow: 0 0 10px 0 grey;
+
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.page_four_cap {
+    /* position: absolute;
+    right: 20%;
+    top: 50%; */
+
+
+
+    width: 100%;
+
+
+
+    display: none;
+    margin-left: 400px;
+
+
+
+}
+
+.page_four_cap_div {
+    width: 500px;
+    display: flex;
+    background-color: white;
+    border-radius: 20px 20px 5px;
+
+    box-shadow: 0 0 10px 0 grey;
+    padding-right: 10px;
+    margin-left: 30px;
+    float: left;
+
+}
+
+.page_four_cap_des p {
+    justify-content: baseline;
+    line-height: 20px;
+}
+
+.page_four_cap_des h5 {
+    justify-content: baseline;
+    margin-top: 20px;
+    margin-bottom: 7px;
+    font-size: 18px;
+
+}
+
+.page_four_cap_des {
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.page_four_cap_div img {
+    padding: 20px;
+    border-radius: 40px 40px 23px;
+    border: 1px solid white;
+    position: relative;
+    height: 107px;
+    width: 113px;
+
+
+}
+
+
+
+/* =============================                 page 5        =================================================== */
+
+.page_five{
+    
+    
+    display: flex;
+    width: 2000px;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+
+.page_five_des{
+    
+    margin-top: 150px;
+    width: 500px;
+    margin-right: 20px;
+}
+.page_five_des p{
+    justify-content: baseline;
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.page_five_des h1{
+    position: relative;
+    padding-bottom: 20px;
+}
+.page_five_des h1::before{
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: orange;
+    position: absolute;
+    bottom: 0%;
+    
+    
+
+}
+.page_five_background{
+    width: 800px;
+    height: 500px;
+    background-color: lightyellow;
+    margin-top: 100px;
+    rotate: 20deg;
+   
+   border-radius: 300px;
+}
+.page_five_images_div{
+    rotate: -20deg;
+    margin-left: 100px;
+    
+    
+   
+}
+.white_div{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    margin: 50px 0px 0px 10px;
+    box-shadow: 0 0 2px 0 black;
+    border-radius: 15px 25px 25px 5px ; 
+}
+.page_five_first_image{
+    display: flex;
+}
+.page_five_first_image img{
+    border-radius: 100px 100px 10px 100px;
+}
+.yellow_div{
+    width: 50px;
+    height: 200px;
+    background-color: orange;
+    margin-right: 20px;
+    margin-top: 50px;
+    border-radius: 25px 5px 25px 25px ;
+}
+.page_five_second_image{
+    display: flex;
+    margin-left: 150px;
+}
+.page_five_second_image img{
+    
+    margin-top: -50px;
+    border-radius: 20px 150px 150px 150px;
+}
+.page_five_image{
+    
+}
+
+
+
+/* =============================                footer      =================================================== */
+
+.home_footer{
+    background-color: black;
+    margin-top: 200px;
+
+}
+.home_footer *{
+    color: white;
+}
+.main_five_footer_div{
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+    margin-left: 70px;
+}
+.five_footer{
+    width: 400px;
+    
+    
+    
+    
+}
+.five_footer h4{
+    padding-bottom: 50px;
+    margin-left: 30px;
+}
+.five_footer img{
+    padding-bottom:50px ;
+    cursor: pointer;
+    
+}
+.five_footer ul li{
+    padding: 10px;
+    list-style-type: none;
+
+}
+.five_footer ul li a{
+    text-decoration: none;
+}
+.follow_us{
+    
+    
+    width: fit-content;
+    
+    
+}
+.follow_us img{
+    width: 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.five_footer_follow{
+    width:300px;
+    margin-right: 100px;
+    text-align: center;
+}
+.footer_copy_right{
+    width: 1200px;
+    margin: auto;
+    border-top: 1px solid rgb(94, 93, 93);
+    text-align: center;
+
+}
+.footer_copy_right p{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: rgb(94, 93, 93);
+}
+
+
+/* =============================             download      =================================================== */
+.black_screen{
+    height: 905vh;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2 );
+    z-index: 200;
+    top: 0%;
+    
+    
+    
+
+}
+.body{
+    position: relative;
+    
+}
+.download{
+  display: none;
+}
+.download_app{
+    background-color: white;
+    box-shadow: 0 0 10px 0 black;
+    width: 900px;
+    height: 310px;
+    display: flex;
+    position: relative;
+    margin-top:  200px;
+    margin-left: 270px;
+    position: fixed; 
+    border-radius: 10px;
+}
+#ios{
+    width: 80px;
+}
+.ios{
+    margin-left: 100px;
+}
+
+.right_side{
+    margin-left: 200px;
+    margin-top: 50px;
+    
+    
+}
+.right_side_image{
+    display: flex;
+    margin-top: 30px;
+}
+.left_side{
+    margin-top: 50px;
+    margin-left: 100px;
+    
+}
+.left_side img{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.android img{
+    width: 80px;
+}
+.right_side_image div{
+    padding: 20px;
+}
+.left_side p{
+    margin-left: 40px;
+}
+.right_side_image p{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.middle_line{
+    height: 200px;
+    width: 2px;
+    background-color: rgb(182, 176, 176);
+    position: absolute;
+    right: 55%;
+    top: 15%;
+}
+.cross_icon{
+    position: absolute;
+    right: 4%;
+    top: 6%;
+    background-color: rgb(194, 187, 187);
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 50px;
+    
+}
+
+
+/* =============================        sign up form       =================================================== */
+
+.sign_up_content{
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 15px black;
+    border-radius: 10px;
+    position: relative;
+    margin: 50px;
+    margin-left: 350px;
+}
+.captain_value input{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    padding-left: 15px;
+    font-size: 14px;
+    border-radius: 10px;
+    display: block;
+    outline: none;
+    border: 1px solid grey;
+
+}
+.sign_up_content{
+    padding: 20px;
+}
+.captain_value select{
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    font-size: 14px;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: grey;
+
+}
+.radio_btn{
+    margin-top: 15px;
+}
+.driving_license{
+    margin-top: 20px;
+
+}
+.driving_license p{
+    color: grey;
+    font-size: 16px;
+}
+#no_radio{
+    margin-left: 30px;
+}
+.radio_btn input{
+    
+}
+.radio_btn label{
+    font-size: 20px;
+    color: grey;
+    
+}
+.phone_num{
+    width: 100%;
+    margin-top: 30px;
+}
+.phone_num input{
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid grey;
+    padding-left: 10px;
+    font-size: 14px;
+    
+}  
+.phone_num button{
+    height: 50px;
+    width: 150px;
+    margin-left: 20px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: gray;
+
+} 
+.otp input{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid grey;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.otp{
+    margin-top: 10px;
+}
+.otp button{
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.sign_up_content span{
+    position: absolute;
+    right: 5%;
+    top: 2%;
+    background-color: rgb(214, 214, 214);
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.sign_form{
+    display: none;
+    position: fixed;
+}

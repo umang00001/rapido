@@ -1,0 +1,577 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+
+
+    overflow-x: hidden;
+    
+
+
+
+
+}
+
+
+
+
+
+/* ======================================================.nav bar=================================================== */
+.navbar ul li::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    transition: all 0.5s;
+    
+
+}
+.navbar ul li:hover::before{
+    width: 100%;
+    
+}
+
+
+.sticky_navbar {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    justify-content: space-between;
+    display: flex;
+    z-index: 100;
+
+    height: 80px;
+    align-items: center;
+}
+
+.navbar img {
+    width: 100px;
+    margin-left: 200px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    position: relative;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar button {
+    margin-right: 300px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px 10px 0px 20px;
+    cursor: pointer;
+}
+
+.navbar_background {
+    background-color: white;
+}
+
+
+/* ======================================================    download    button=================================================== */
+
+
+.black_screen {
+    height: 905vh;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 200;
+    top: 0%;
+
+
+
+
+}
+
+.body {
+    position: relative;
+
+}
+
+.download {
+    display: none;
+}
+
+.download_app {
+    background-color: white;
+    box-shadow: 0 0 10px 0 black;
+    width: 900px;
+    height: 310px;
+    display: flex;
+    position: relative;
+    margin-top: 200px;
+    margin-left: 270px;
+    position: fixed;
+    border-radius: 10px;
+}
+
+#ios {
+    width: 80px;
+}
+
+.ios {
+    margin-left: 100px;
+}
+
+.right_side {
+    margin-left: 200px;
+    margin-top: 50px;
+
+
+}
+
+.right_side_image {
+    display: flex;
+    margin-top: 30px;
+}
+
+.left_side {
+    margin-top: 50px;
+    margin-left: 100px;
+
+}
+
+.left_side img {
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.android img {
+    width: 80px;
+}
+
+.right_side_image div {
+    padding: 20px;
+}
+
+.left_side p {
+    margin-left: 40px;
+}
+
+.right_side_image p {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.middle_line {
+    height: 200px;
+    width: 2px;
+    background-color: rgb(182, 176, 176);
+    position: absolute;
+    right: 55%;
+    top: 15%;
+}
+
+.cross_icon {
+    position: absolute;
+    right: 4%;
+    top: 6%;
+    background-color: rgb(194, 187, 187);
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 50px;
+
+}
+
+
+
+/* ======================================================    page one=================================================== */
+
+
+.page_five {
+
+
+    display: flex;
+    width: 2000px;
+    /* margin-left: 100px; */
+    margin-top: 50px;
+
+
+
+
+}
+
+.page_one_des {
+    width: 500px;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.page_one_des h2 {
+    font-size: 50px;
+    font-weight: 10;
+}
+
+.page_one_des h1 {
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.page_one_des h4 {
+    margin-top: 30px;
+    font-size: 20px;
+    color: rgb(66, 66, 66);
+}
+
+.page_one_des p {
+    margin-top: 10px;
+    line-height: 25px;
+    color: rgb(184, 179, 179);
+    font-size: 20px;
+}
+
+
+
+
+.page_five_background {
+    width: 800px;
+    height: 500px;
+    background-color: lightyellow;
+    margin-top: 100px;
+    rotate: 20deg;
+
+    border-radius: 300px;
+}
+
+.page_five_images_div {
+    rotate: -20deg;
+    margin-left: 100px;
+
+
+
+}
+
+.white_div {
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    margin: 50px 0px 0px 10px;
+    box-shadow: 0 0 2px 0 black;
+    border-radius: 15px 25px 25px 5px;
+}
+
+.page_five_first_image {
+    display: flex;
+}
+
+.page_five_first_image img {
+    border-radius: 100px 100px 10px 100px;
+}
+
+.yellow_div {
+    width: 50px;
+    height: 200px;
+    background-color: orange;
+    margin-right: 20px;
+    margin-top: 50px;
+    border-radius: 25px 5px 25px 25px;
+}
+
+.page_five_second_image {
+    display: flex;
+    margin-left: 150px;
+}
+
+.page_five_second_image img {
+
+    margin-top: -50px;
+    border-radius: 20px 150px 150px 150px;
+}
+
+
+.work_with_us {
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.work_with_us h1 {
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.work_with_us h1::before {
+    content: "";
+    background-color: orange;
+    height: 3px;
+    width: 50px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.work_images {
+    display: flex;
+}
+
+.work_images div {
+    margin-top: 50px;
+    margin-right: 100px;
+    color: grey;
+}
+
+.work_images p {
+    margin-top: 20px;
+    justify-content: baseline;
+}
+
+
+
+/* =============================        images   =================================================== */
+
+.careerimage {
+    width: 1300px;
+    margin: auto;
+    margin-top: 80px;
+
+}
+
+.careerimage img {
+    width: 300px;
+}
+
+/* =============================        swiper   =================================================== */
+
+
+
+
+
+.swiper_background {
+    height: 500px;
+    width: 1000px;
+    background-color: gainsboro;
+    border-radius: 0px 250px 50px 0px;
+    position: relative;
+    border: 1px solid black;
+    
+}
+.swiper_background::before{
+    content: "";
+    background-color: orange;
+    height: 3px;
+    width: 100px;
+    position: absolute;
+    bottom: -100px;
+    left: 400px;
+    
+}
+
+.careers_swiper {
+    margin-top: 100px;
+}
+
+#gp {
+    position: absolute;
+    top: -70px;
+    left: 100px;
+}
+
+#yp {
+    position: absolute;
+    bottom: -150px;
+    right: 100px;
+    z-index: -1;
+}
+
+.swiper_div h1{
+    position: relative;
+    padding-bottom: 15px;
+    
+}
+.swiper_div h1::before{
+    content: "";
+    background-color: orange;
+    height: 3px;
+    width: 50px;
+    position: absolute;
+    bottom: 0px;
+
+}
+.swiper_div{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+
+
+.swiper {
+    margin-top: 50px;
+    
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .image_p img{
+    width: 80px;
+    margin-right: 20px;
+    box-shadow: -5px -5px 0 orange;
+  }
+  .image_p{
+    display: flex;
+  }
+  .image_p p{
+    
+    text-align: justify;
+    font-size: 16px;
+  }
+  .main_swiper{
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .bottom_p{
+    margin-top: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =============================                footer      =================================================== */
+
+.home_footer {
+    background-color: black;
+    margin-top: 200px;
+
+
+}
+
+.home_footer * {
+    color: white;
+}
+
+.main_five_footer_div {
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+    margin-left: 70px;
+}
+
+.five_footer {
+    width: 400px;
+
+
+
+
+}
+
+.five_footer h4 {
+    padding-bottom: 50px;
+    margin-left: 30px;
+}
+
+.five_footer img {
+    padding-bottom: 50px;
+    cursor: pointer;
+
+}
+
+.five_footer ul li {
+    padding: 10px;
+    list-style-type: none;
+
+}
+
+.five_footer ul li a {
+    text-decoration: none;
+}
+
+.follow_us {
+
+
+    width: fit-content;
+
+
+}
+
+.follow_us img {
+    width: 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.five_footer_follow {
+    width: 300px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.footer_copy_right {
+    width: 1200px;
+    margin: auto;
+    border-top: 1px solid rgb(94, 93, 93);
+    text-align: center;
+
+}
+
+.footer_copy_right p {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: rgb(94, 93, 93);
+}
